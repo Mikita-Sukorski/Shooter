@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\3D Shooter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72E9EE22-704E-F08C-1F63-58E0E213BA7C}|Assembly-CSharp.csproj|d:\\\u043A\u0443\u0440\u0441\u0430\u0447\\3d shooter\\assets\\scripts\\playermotor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E9EE22-704E-F08C-1F63-58E0E213BA7C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermotor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E9EE22-704E-F08C-1F63-58E0E213BA7C}|Assembly-CSharp.csproj|D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\3D Shooter\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E9EE22-704E-F08C-1F63-58E0E213BA7C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerMotor.cs",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\3D Shooter\\Assets\\Scripts\\PlayerMotor.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMotor.cs",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\3D Shooter\\Assets\\Scripts\\PlayerMotor.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMotor.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T19:48:16.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\3D Shooter\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\3D Shooter\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T19:48:13.487Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
