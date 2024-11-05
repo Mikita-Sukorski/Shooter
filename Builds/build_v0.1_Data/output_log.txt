@@ -17,22 +17,22 @@ Platform assembly: D:\Курсач\3D Shooter\Builds\build_v0.1_Data\Managed\Uni
 Loading D:\Курсач\3D Shooter\Builds\build_v0.1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: D:\Курсач\3D Shooter\Builds\build_v0.1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading D:\Курсач\3D Shooter\Builds\build_v0.1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.344 seconds
+- Completed reload, in  0.365 seconds
 Platform assembly: D:\Курсач\3D Shooter\Builds\build_v0.1_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: D:\Курсач\3D Shooter\Builds\build_v0.1_Data\Managed\System.dll (this message is harmless)
-desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initialized touch support.
-UnloadTime: 0.823600 ms
+UnloadTime: 1.130300 ms
 Setting up 6 worker threads for Enlighten.
-  Thread -> id: 325c -> priority: 1 
-  Thread -> id: 15b4 -> priority: 1 
-  Thread -> id: 2d04 -> priority: 1 
-  Thread -> id: 39e8 -> priority: 1 
-  Thread -> id: 2d48 -> priority: 1 
-  Thread -> id: 2fec -> priority: 1 
-Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:7777} time {125032}, last rec time {122542} rtt {10} timeout {2000}
+  Thread -> id: 162c -> priority: 1 
+  Thread -> id: 3408 -> priority: 1 
+  Thread -> id: 5180 -> priority: 1 
+  Thread -> id: 59f0 -> priority: 1 
+  Thread -> id: 38cc -> priority: 1 
+  Thread -> id: 2ef0 -> priority: 1 
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:7777} time {41761}, last rec time {39448} rtt {11} timeout {2000}
 ClientDisconnected due to error: Timeout
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
