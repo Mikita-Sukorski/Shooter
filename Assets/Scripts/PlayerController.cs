@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(ConfigurableJoint))]
 [RequireComponent(typeof(PlayerMotor))] 
 public class PlayerController : MonoBehaviour
 {
@@ -11,11 +12,31 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private float rotateSpeed = 10f;
 
+    [SerializeField]
+    private float _thrusterForce = 1000f;
+
+    [Header("Spring settings:")]
+
+    [SerializeField]
+    [System.Obsolete]
+    private JointDriveMode _jointMode = JointDriveMode.Position;
+
+    [SerializeField]
+    private float _jointSpring = 20f;
+
+    [SerializeField]
+    private float _jointMaxForce = 40f;
+
     private PlayerMotor motor;
+
+    private ConfigurableJoint _joint;
 
     void Start()
     {
         motor = GetComponent<PlayerMotor>();
+        _joint = GetComponent<ConfigurableJoint>();
+
+        SetJointSettings(_jointSpring);
     }
 
     void Update()
@@ -39,5 +60,28 @@ public class PlayerController : MonoBehaviour
         Vector3 camRotation = new Vector3(xRot, 0, 0) * rotateSpeed;
 
         motor.RotateCam(camRotation);
+
+        Vector3 thrusterForce = Vector3.zero;
+        if(Input.GetButton("Jump"))
+        {
+            thrusterForce = Vector3.up * _thrusterForce;
+
+            SetJointSettings(0f);
+        }
+        else
+        {
+            SetJointSettings(_jointSpring);
+        }
+
+        motor.ApplyThruster(thrusterForce);
     }
+
+    private void SetJointSettings(float jointSpring)
+	{
+		_joint.yDrive = new JointDrive { 
+			mode = _jointMode, 
+			positionSpring = jointSpring, 
+			maximumForce = _jointMaxForce
+		};
+	}
 }
